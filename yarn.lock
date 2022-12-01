@@ -2,20 +2,20 @@
 # yarn lockfile v1
 
 
-"@builder.io/qwik-city@0.0.127":
-  version "0.0.127"
-  resolved "https://registry.yarnpkg.com/@builder.io/qwik-city/-/qwik-city-0.0.127.tgz#985be12ef82d452cd9e1cf3ceb8aaa644b933541"
-  integrity sha512-YvB4MZ8Hm+B+L9SQMKibcqe23EbQuRHUQ9IfZ6aUWgWKA2fMYDIcU/XO9nLtjUabr23Y5ALpx1Ak2Mu9WAe/7g==
+"@builder.io/qwik-city@0.0.118":
+  version "0.0.118"
+  resolved "https://registry.yarnpkg.com/@builder.io/qwik-city/-/qwik-city-0.0.118.tgz#0729b4939f5adca81c74c8fd13e4b106b29a66a6"
+  integrity sha512-vkc20xK3HUr6rviVpDeOwbzCfo6QTjZWBL9oyGYcYLfqqC1gvvuc+zf548APAwbTQa+4/7pzJCNMVixvDyD/4g==
   dependencies:
     "@mdx-js/mdx" "2.1.5"
     "@types/mdx" "2.0.3"
     source-map "0.7.4"
-    vfile "5.3.6"
+    vfile "5.3.5"
 
-"@builder.io/qwik@0.14.1":
-  version "0.14.1"
-  resolved "https://registry.yarnpkg.com/@builder.io/qwik/-/qwik-0.14.1.tgz#b82d097d73a77ad8cca3298abbbc6d4ca59d4be5"
-  integrity sha512-bHAWSK2kaJ8VxYsR85/0cj/dbzp2dfzjWZDWoH8gKy2PZw+PYGh+vIsQE0H+Xu3WIkwkkyi8PdWA1H/Qp9MSng==
+"@builder.io/qwik@0.12.1":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@builder.io/qwik/-/qwik-0.12.1.tgz#77a7bde7ff96cca9bd72e20797744dfd7eaeee50"
+  integrity sha512-ePxm9tr6qa+cNySuIhXOElozkkqdRfyPvEPEV659QJSq704C031/VC0S2lqqvKsc9+ZogBlejGuYWLmtRrsT6w==
 
 "@cush/relative@^1.0.0":
   version "1.0.0"
@@ -2137,7 +2137,17 @@ vfile-message@^3.0.0:
     "@types/unist" "^2.0.0"
     unist-util-stringify-position "^3.0.0"
 
-vfile@5.3.6, vfile@^5.0.0:
+vfile@5.3.5:
+  version "5.3.5"
+  resolved "https://registry.yarnpkg.com/vfile/-/vfile-5.3.5.tgz#ec2e206b1414f561c85b7972bb1eeda8ab47ee61"
+  integrity sha512-U1ho2ga33eZ8y8pkbQLH54uKqGhFJ6GYIHnnG5AhRpAh3OWjkrRHKa/KogbmQn8We+c0KVV3rTOgR9V/WowbXQ==
+  dependencies:
+    "@types/unist" "^2.0.0"
+    is-buffer "^2.0.0"
+    unist-util-stringify-position "^3.0.0"
+    vfile-message "^3.0.0"
+
+vfile@^5.0.0:
   version "5.3.6"
   resolved "https://registry.yarnpkg.com/vfile/-/vfile-5.3.6.tgz#61b2e70690cc835a5d0d0fd135beae74e5a39546"
   integrity sha512-ADBsmerdGBs2WYckrLBEmuETSPyTD4TuLxTrw0DvjirxW1ra4ZwkbzG8ndsv3Q57smvHxo677MHaQrY9yxH8cA==

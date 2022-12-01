@@ -442,7 +442,7 @@ export class Env {
                 rDiv.appendChild(p)
                 p.style.background = '#d44'
                 p.style.color = '#fff'
-                p.innerHTML = `Step. ${index}<br>- 班級${change.from.course.name} 老師${change.to.teacher.name}`
+                p.innerHTML = `Step. ${index+1}<br>- 班級${change.from.course.name} 老師${change.to.teacher.name}`
             }
 
             /// add
@@ -452,7 +452,7 @@ export class Env {
                 aDiv.appendChild(p)
                 p.style.background = '#5d5'
                 p.style.color = '#fff'
-                p.innerHTML = `Step. ${index}<br>+ 班級${change.from.course.name} 老師${change.to.teacher.name}`
+                p.innerHTML = `Step. ${index+1}<br>+ 班級${change.from.course.name} 老師${change.to.teacher.name}`
             }
         }
     }
