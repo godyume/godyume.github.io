@@ -39,7 +39,7 @@ export class Global {
     this.setting.cleanAll()
   }
   set steps(steps: number) {
-    this.setting.days = steps
+    this.setting.steps = steps
     this.setting.cleanAll()
   }
   set teachers(teachers: { [key: string]: string }) {
